@@ -51,13 +51,100 @@ header {
                 }
             }
         }
-        
+
     }
-    .logsing {background-color: white;
-        
+
+    .logsing {
+        background-color: white;
+
         padding: 5px;
         border-radius: 25px;
-        a{text-decoration: none;
-            color: black;}
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.formcontainer {
+    background-image: url(../slike/background.jpeg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+
+    form {
+        background-color: white;
+        height: 80px;
+        width: 1000px;
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 25px;
+        padding: 8px;
+
+        div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: space-between;
+
+            label {
+                text-align: center;
+            }
+
+            input {
+                width: 225px;
+                height: 55px;
+                border-radius: 40px;
+            }
+
+            .search {
+                width: 50px;
+                background-image: url("../slike/srednji\ ekran.png");
+                background-size: cover;
+
+
+            }
+        }
+
+
+    }
+}
+
+.inspiration { height: 720px;
+
+    h2 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .blabla {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 650px;
+        
+
+        div {
+            height: 80%;
+            width: 30%;
+            box-shadow: 5px 5px 5px $blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 1% 3%;
+            margin-top: 5%;
+            border-radius: 10%;
+        
+
+            img {height: 90%;
+                width: 80%;
+                border-radius: 10%;
+            }
+            p{text-align: center;}
+        }
     }
 }

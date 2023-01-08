@@ -51,4 +51,75 @@ header .logsing a {
   color: black;
 }
 
+.formcontainer {
+  background-image: url(../slike/background.jpeg);
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+.formcontainer form {
+  background-color: white;
+  height: 80px;
+  width: 1000px;
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  padding: 8px;
+}
+.formcontainer form div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-between;
+}
+.formcontainer form div label {
+  text-align: center;
+}
+.formcontainer form div input {
+  width: 225px;
+  height: 55px;
+  border-radius: 40px;
+}
+.formcontainer form div .search {
+  width: 50px;
+  background-image: url("../slike/srednji ekran.png");
+  background-size: cover;
+}
+
+.inspiration {
+  height: 720px;
+}
+.inspiration h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+.inspiration .blabla {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 650px;
+}
+.inspiration .blabla div {
+  height: 80%;
+  width: 30%;
+  box-shadow: 5px 5px 5px #7079f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1% 3%;
+  margin-top: 5%;
+  border-radius: 10%;
+}
+.inspiration .blabla div img {
+  height: 90%;
+  width: 80%;
+  border-radius: 10%;
+}
+.inspiration .blabla div p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=domaci.css.map */
