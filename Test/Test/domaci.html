@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/domaci.css">
+    <link rel="icon" type="image/x-icon" href="./slike/favicon.svg">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div><img src="./slike/favicon.svg">
+            <h3>GoGoTravel</h3>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Pocetna</a></li>
+                <li><a href="#">Smestaj</a></li>
+                <li><a href="#">Letovi</a></li>
+                <li><a href="#">Iznajmljivanje auta</a></li>
+            </ul>
+        </div>
+        <div><a href="#">Log in|Sing in</a></div>
+    </header>
+    <section class="formcontainer">
+        <form method="post" action="#">
+            <label for="location">Lokacija</label>
+            <input type="text" id="location" placeholder="Gde idete?">
+            <label for="datestart">Datum dolaska</label>
+            <input type="date" id="datestart">
+            <label for="datend">Datum odlaska</label>
+            <input type="date" id="datend">
+            <label for="persons">Broj osoba</label>
+            <input type="number" id="persons" min="1">
+            <input type="submit" class="search">
+        </form>
+    </section>
+    <section class="inspiration">
+        <h2>Inspiracija za vase sledece putovanje</h2>
+        <div><img src="./slike/Dubai.jpeg">
+            <p>Dubai</p>
+        </div>
+        <div><img src="./slike/London.jpeg">
+            <p>London</p>
+        </div>
+        <div><img src="./slike/Berlin.jpeg">
+            <p>Berlin</p>
+        </div>
+    </section>
+    <section class="mapslinks">
+        <div class="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39267.13678159241!2d-1.89748750804957!3d52.03974220608307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870d894e3cd159b%3A0x7e69525fcca010ad!2sBroadway%2C%20UK!5e0!3m2!1sen!2srs!4v1673196743040!5m2!1sen!2srs"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="links">
+            <div>
+                <h4>Podrska</h4>
+                <ul>
+
+                    <li><a href="#">Centar za pomoc</a></li>
+                    <li><a href="#">Informacije o bezbednosti</a></li>
+                    <li><a href="#">Opcije otkazivanja</a></li>
+                    <li><a href="#">Nas odgovor na COVID-19</a></li>
+                    <li><a href="#">Podrzite osobe sa invaliditetom</a></li>
+                    <li><a href="#">Prijavite poblem u okolini</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Osnovni podaci</h4>
+                <ul>
+
+                    <li><a href="#">Pres centar</a></li>
+                    <li><a href="#">Vise o novim funkcijama</a></li>
+                    <li><a href="#">Pismo od nasih osnivaca</a></li>
+                    <li><a href="#">Zaposlenje</a></li>
+                    <li><a href="#">Investitori</a></li>
+        
+                </ul>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
